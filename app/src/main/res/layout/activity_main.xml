@@ -76,12 +76,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="추천인"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="추천인 닉네임 입력"
+        android:visibility="gone"
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
 
@@ -122,9 +124,29 @@
         android:text="이용 약관에 동의합니다"
         android:checked="true"/>
 
-    <Button
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입 하기" />
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="이전으로" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="회원가입 하기" />
+
+
+    </LinearLayout>
+
+
+
 
 </LinearLayout>
