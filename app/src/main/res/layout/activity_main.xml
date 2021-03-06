@@ -30,5 +30,15 @@
         android:hint="8글자 이상으로 입력"
         android:inputType="textPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연락처"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호 입력"
+        android:inputType="phone" />
 
 </LinearLayout>
