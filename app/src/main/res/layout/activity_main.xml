@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="10dp"
         android:orientation="vertical" >
 
         <ImageView
@@ -54,12 +53,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:text="연락처"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="전화번호 입력"
+        android:visibility="gone
+"
         android:inputType="phone" />
 
     <TextView
@@ -124,6 +126,11 @@
         android:text="이용 약관에 동의합니다"
         android:checked="true"/>
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <LinearLayout
         android:layout_width="match_parent"
